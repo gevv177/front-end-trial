@@ -5,7 +5,7 @@ function App() {
 
   return (
     <div className='project'>
-     <Lifestyle />
+     <Lifestyle/>
     </div>
   )
 }

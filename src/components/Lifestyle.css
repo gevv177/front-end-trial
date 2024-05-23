@@ -1,16 +1,16 @@
 .Lifestyle{
-    max-width: 1235px;
+    max-width: 77.188rem;
     display: flex;
     flex-wrap: wrap;
     margin: 0 auto;
 }
 .boxes{
-    max-width: 1235px;
+    max-width: 77.188rem;
     margin-left: 3rem;
     flex-wrap: wrap;
     transition: 0.3s;
     z-index: 0;
-    margin-top: 10px;
+    margin-top: 0.625rem;
     cursor: pointer;
 }
 .boxes:hover{
@@ -20,25 +20,25 @@
     color: red;
     font-family: "Roboto", sans-serif;
     font-weight: 700;
-    font-size: 13px;
-    line-height: 13px;
+    font-size: 0.813rem;
+    line-height: 0.813rem;
 }
 .title{
     font-family: "Roboto", sans-serif;
-    font-size: 24px;
-    width: 360px;
-    line-height: 30px;
+    font-size: 1.5rem;
+    width: 22.5rem;
+    line-height: 1.875rem;
     font-weight: 700;
 }
 .about{
     display: flex;
     align-items: center;
     justify-content: space-between;
-    width: 200px;
+    width: 12.5rem;
     font-family: "Roboto", sans-serif;
-    font-size: 12px;
+    font-size: 0.75rem;
     font-weight: 400;
-    line-height: 12px;
+    line-height: 0.75rem;
 }
 .date{
     opacity: 0.5;
@@ -48,28 +48,28 @@
 }
 .text{
     opacity: 0.5;
-    width: 360px;
-    font-size: 14px;
-    line-height: 20px;
+    width: 22.5rem;
+    font-size: 0.875rem;
+    line-height: 1.25rem;
     font-weight: 400;
 }
 .header {
     position: sticky;
-    top: 10px;
+    top: 0.625rem;
     background: white;
     z-index: 10;
 }
 .logosearch {
     display: flex;
     justify-content: space-between;
-    max-width: 1160px;
+    max-width: 72.5rem;
     margin: 1.813rem auto;
 }
 .hr {
     opacity: 0.3;
 }
 .categoryes {
-    max-width: 1160px;
+    max-width: 72.5rem;
     display: flex;
     font-family: "Roboto", sans-serif;
     font-weight: 500;
@@ -88,10 +88,10 @@
 .posts{
     list-style: none;
     opacity: 0;
-    width: 224px;
+    width: 14rem;
     position: absolute;
     padding: 0;
-    margin-top: -1000px;
+    margin-top: -62.5rem;
     z-index: 107;
     border: 1px solid rgb(192, 188, 188);
     background: white;
@@ -105,7 +105,7 @@
 
 .postsli{
     font-family: "Roboto", sans-serif;
-    margin: 20px;
+    margin: 1.25rem;
     display: flex;
     justify-content: space-between;
     cursor: pointer;
@@ -153,7 +153,7 @@
 	display: flex;
 }
 .logo{
-    margin-left: 210px;
+    margin-left: 13.125rem;
 }
 .search-bar input {
 	background: transparent;
@@ -293,7 +293,7 @@
         display: none;
     }
     .logo{
-        margin-left: 60px;
+        margin-left: 3.75rem;
     }
 
   }

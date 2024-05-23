@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from 'react'
+import React, { useEffect, useRef, useState } from 'react'
 import "./Lifestyle.css"
 
 export default function Lifestyle() {
@@ -6,7 +6,6 @@ export default function Lifestyle() {
   const [searchVal, setSearchVal] = useState('')
   const [isOpen, setIsOpen] = useState(false)
   const [isOpenMenu, setIsOpenMenu] = useState(true)
-
   const togleModal = () => setIsOpen(!isOpen)
   const togleMenu = () => setIsOpenMenu(!isOpenMenu)
   useEffect(() => {
